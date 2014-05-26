@@ -1,0 +1,13 @@
+{
+  "title": "Partikular: Lightweight wireframing",
+  "project": "Partikular",
+  "navigation": [
+    {
+      "id": "home",
+      "name": "Home"
+    },{
+      "id": "about",
+      "name": "About Partikular"
+    }
+  ]
+}

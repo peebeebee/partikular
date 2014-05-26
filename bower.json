@@ -1,0 +1,27 @@
+{
+  "name": "Partikular",
+  "version": "0.0.1",
+  "authors": [
+    "Peter Briers <peter.briers@gmail.com>"
+  ],
+  "description": "Very lightweigt and quick html wireframing tool, based on Twitter Bootstrap and Mustache.js",
+  "main": "index.html",
+  "keywords": [
+    "wireframing"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/peebeebee/partikular",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mustache.js": "~0.8.1",
+    "twitter": "~3.1.1"
+  }
+}
