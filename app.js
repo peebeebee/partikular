@@ -26,7 +26,7 @@ function processTemplate() {
     var template, html;
     template = $('#template').html();
     html = Mustache.render( template, data );
-    $('#template').html( html );
+    $('#template').html( html ).show();
   })
   .fail(function() {
     alert("Could not get data");
@@ -43,5 +43,4 @@ $(function() {
   processTemplate();
   url = getPageUrl();
   getPage(url);
-  $('#template').show();
 });
